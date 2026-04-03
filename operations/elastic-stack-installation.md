@@ -24,57 +24,12 @@ Windows / Linux Endpoints
 
 ## 🔧 Core Components
 
-### 🐳 Docker (Infrastructure Layer)
-
-* Used to deploy Elasticsearch and Kibana
-* Provides isolated, reproducible environments
-* Simplifies service management
-
----
-
-### 🔍 Elasticsearch (Data Engine)
-
-* Stores and indexes logs
-* Enables fast querying and searching
-* Acts as the SIEM backend
-
----
-
-### 📊 Kibana (Visualization & Management)
-
-* Web interface for log analysis
-* Used to configure Fleet and manage agents
-* Displays dashboards and alerts
-
----
-
-### 🎛️ Fleet (Control Plane)
-
-* Centralized management of Elastic Agents
-* Deploys configurations and policies
-* Handles agent enrollment
-
----
-
-### 🧠 Fleet Server
-
-* Installed via Elastic Agent
-* Acts as communication hub between agents and Elasticsearch
-* Uses secure (HTTPS) communication
-
----
-
-### 🛰️ Elastic Agents
-
-Installed on:
-
-* Linux server (AD lab environment)
-* Windows endpoint
-
-Responsibilities:
-
-* Collect system and authentication logs
-* Forward data to Fleet Server
+- Docker (Infrastructure Layer): Used to deploy Elasticsearch and Kibana
+- Elasticsearch (Data Engine): Acts as the SIEM backend
+- Kibana (Visualization & Management): Web interface for log analysis
+- Fleet (Control Plane): Centralized management of Elastic Agents
+- Fleet Server: Acts as communication hub between agents and Elasticsearch
+- Elastic Agents: Installed on Linux server (AD lab environment) and Windows endpoint
 
 ---
 
@@ -84,16 +39,6 @@ Responsibilities:
 | ---------------- | ------------------------------------------- |
 | Service Token    | Authenticates Fleet Server to Elasticsearch |
 | Enrollment Token | Allows endpoints to join Fleet              |
-
----
-
-## 🌐 Network & Ports
-
-| Service       | Port | Protocol |
-| ------------- | ---- | -------- |
-| Elasticsearch | 9200 | HTTP     |
-| Kibana        | 5601 | HTTP     |
-| Fleet Server  | 8220 | HTTPS    |
 
 ---
 
