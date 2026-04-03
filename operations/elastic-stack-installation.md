@@ -24,21 +24,12 @@ Windows / Linux Endpoints
 
 ## 🔧 Core Components
 
-- Docker (Infrastructure Layer): Used to deploy Elasticsearch and Kibana
-- Elasticsearch (Data Engine): Acts as the SIEM backend
-- Kibana (Visualization & Management): Web interface for log analysis
-- Fleet (Control Plane): Centralized management of Elastic Agents
-- Fleet Server: Acts as communication hub between agents and Elasticsearch
-- Elastic Agents: Installed on Linux server (AD lab environment) and Windows endpoint
-
----
-
-## 🔐 Authentication Model
-
-| Token Type       | Purpose                                     |
-| ---------------- | ------------------------------------------- |
-| Service Token    | Authenticates Fleet Server to Elasticsearch |
-| Enrollment Token | Allows endpoints to join Fleet              |
+- **Docker (Infrastructure Layer):** Used to deploy Elasticsearch and Kibana
+- **Elasticsearch (Data Engine):** Acts as the SIEM backend
+- **Kibana (Visualization & Management):** Web interface for log analysis
+- **Fleet (Control Plane):** Centralized management of Elastic Agents
+- **Fleet Server:** Acts as communication hub between agents and Elasticsearch
+- **Elastic Agents:** Installed on Linux server (AD lab environment) and Windows endpoint
 
 ---
 
@@ -46,6 +37,7 @@ Windows / Linux Endpoints
 
 ### 1. Deploy Elastic Stack (Docker)
 ![Docker](../screenshots/docker-compose.png)
+![Container](../screenshots/container.png)
 * Start Elasticsearch and Kibana containers
 * Verify services are reachable
 
