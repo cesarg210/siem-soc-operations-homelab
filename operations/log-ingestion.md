@@ -2,14 +2,14 @@
 
 ## 🧠 Objective
 
-Validate that:
+I will validate that:
 - Windows security logs are successfully ingested into the SIEM
 - Failed login attempts (Event ID 4625) are detectable
 - Detection rules trigger alerts based on suspicious behavior
 
 ---
 
-## 🏗️ Environment
+## 🏗️ My Environment
 
 | Component        | Role                         |
 |----------------|------------------------------|
