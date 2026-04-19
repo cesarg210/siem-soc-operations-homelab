@@ -34,16 +34,17 @@ This event is generated when a login attempt fails on a Windows system.
 - `host.name`
 
 ---
+## 🔧 Step 1 – Create Detection Rule in Kibana
+![kibana rule created](../screenshots/kibana-rule-created.png)
+A threshold-based detection rule was created to identify multiple failed login attempts.
 
-## 🧪 Step 1 – Simulate Brute Force Attempt
+---
+
+## 🧪 Step 2 – Simulate Brute Force Attempt
 ![Windows Brute Force Attempt](../screenshots/brute-force-attempt.png)
 A brute force attack was simulated by repeatedly entering incorrect passwords on the Windows login screen.
 
 ---
-
-## 🔧 Step 2 – Create Detection Rule in Kibana
-![kibana rule created](../screenshots/kibana-rule-created.png)
-A threshold-based detection rule was created to identify multiple failed login attempts.
 
 ## 🚨 Step 3 – Alert Triggered
 ![kibana alert](../screenshots/kibana-alert.png)
