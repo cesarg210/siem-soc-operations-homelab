@@ -1,15 +1,15 @@
 # 🔵 Phase 3: SIEM Deployment (Elastic Stack)
 
-This phase focuses on deploying a centralized Security Information and Event Management (SIEM) system using the Elastic Stack. The goal is to aggregate logs from multiple systems, establish centralized visibility, and prepare the environment for detection engineering and incident analysis.
+This phase focuses on deploying a centralized Security Information and Event Management (SIEM) system using the Elastic Stack. My goal is to aggregate logs from multiple systems, establish centralized visibility, and prepare the environment for detection engineering and incident analysis.
 
 ---
 
 ## ✅ Phase Objectives
 
-• Deploy the Elastic Stack (Elasticsearch, Kibana) using containerization
-• Configure centralized log ingestion from Windows and Linux systems
-• Establish alerting capabilities for security event detection
-• Document security events and prepare for incident response workflows
+- Deploy the Elastic Stack (Elasticsearch, Kibana) using containerization
+- Configure centralized log ingestion from Windows and Linux systems
+- Establish alerting capabilities for security event detection
+- Document security events and prepare for incident response workflows
 
 ---
 
