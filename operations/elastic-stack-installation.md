@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Deploy and configure a fully functional SIEM using the Elastic Stack to ingest, analyze, and monitor logs from both Linux and Windows systems.
+I will deploy and configure a fully functional SIEM using the Elastic Stack to ingest, analyze, and monitor logs from both Linux and Windows systems.
 
 ---
 
@@ -43,30 +43,13 @@ Windows / Linux Endpoints
 
 ---
 
-### 2. Enable Security
-
-* Configure built-in users
-* Set passwords for:
-
-  * `elastic`
-  * `kibana_system`
-
----
-
-### 3. Initialize Fleet
-
-* Access Kibana → Fleet
-* Configure Fleet settings
-
----
-
-### 4. Deploy Fleet Server
+### 2. Deploy Fleet Server
 
 ![Fleet Server](../screenshots/elastic-agent-server-install.png)
 
 ---
 
-### 5. Install Linux Agent
+### 3. Install Linux Agent
 
 ```bash
 sudo ./elastic-agent install \
@@ -77,7 +60,7 @@ sudo ./elastic-agent install \
 
 ---
 
-### 6. Install Windows Agent
+### 4. Install Windows Agent
 
 ```powershell
 .\elastic-agent.exe install `
