@@ -41,7 +41,7 @@ A brute force attack was simulated by repeatedly entering incorrect passwords on
 
 ---
 
-## 🔧 Step 1 – Create Detection Rule in Kibana
+## 🔧 Step 2 – Create Detection Rule in Kibana
 ![kibana rule created](../screenshots/kibana-rule-created.png)
 A threshold-based detection rule was created to identify multiple failed login attempts.
 
