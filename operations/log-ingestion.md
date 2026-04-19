@@ -36,7 +36,7 @@ This event is generated when a login attempt fails on a Windows system.
 ---
 ## 🔧 Step 1 – Create Detection Rule in Kibana
 ![kibana rule created](../screenshots/kibana-rule-created.png)
-A threshold-based detection rule was created to identify multiple failed login attempts.
+I created a threshold-based detection rule to identify multiple failed login attempts.
 
 ---
 
@@ -48,7 +48,7 @@ A brute force attack was simulated by repeatedly entering incorrect passwords on
 
 ## 🚨 Step 3 – Alert Triggered
 ![kibana alert](../screenshots/kibana-alert.png)
-After generating multiple failed login attempts, the detection rule successfully triggered an alert.
+After generating multiple failed login attempts, the detection rule triggered an alert.
 
 ## 🧠 Analysis
 
